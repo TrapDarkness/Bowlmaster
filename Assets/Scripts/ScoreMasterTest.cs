@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
@@ -213,3 +214,4 @@ public class ScoreMasterTest {
 //		Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 //	}
 }
+*/
