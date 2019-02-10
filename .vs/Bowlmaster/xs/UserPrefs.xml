@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraControl.cs">
     <Files>
       <File FileName="Assets/Scripts/Ball.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/CameraControl.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="18" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
