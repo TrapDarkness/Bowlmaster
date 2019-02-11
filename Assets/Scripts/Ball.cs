@@ -5,28 +5,28 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     private Rigidbody rigidBody;
-    public Vector3 launchVeloctiy;
+    public Vector3 launchVelocity;
     private AudioSource audioSource;
+
 
     // Use this for initialization
 	void Start ()
     {
-        //Init Components
         rigidBody = GetComponent<Rigidbody>();
-        audioSource = GetComponent<AudioSource>();
-
-        Launch();
+        GetComponent<Rigidbody>().useGravity = false;
 
     }
 
-    public void Launch()
+    public void Launch(Vector3 velocity)
     {
-        rigidBody.velocity = launchVeloctiy ;
+        GetComponent<Rigidbody>().useGravity = true;
+        rigidBody.velocity = velocity;
+
+        audioSource = GetComponent<AudioSource>();
         audioSource.Play();
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
+
+
+
