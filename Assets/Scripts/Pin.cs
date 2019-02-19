@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour {
 
-    public float standingThreshold = 3f;
+    public float standingThreshold = 90f;
 
 
 
@@ -16,7 +16,6 @@ public class Pin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        print(name + IsStanding());
     }
 
 
