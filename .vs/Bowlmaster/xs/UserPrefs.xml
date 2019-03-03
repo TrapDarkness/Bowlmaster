@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{FAC28C88-2AB9-0263-7861-91F44A0A8B29}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PinSetter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraControl.cs">
     <Files>
-      <File FileName="Assets/Scripts/CameraControl.cs" Line="18" Column="50" />
-      <File FileName="Assets/Scripts/Ball.cs" Line="23" Column="23" />
-      <File FileName="Assets/Scripts/DragLaunch.cs" Line="18" Column="37" />
-      <File FileName="Assets/Scripts/Pin.cs" Line="19" Column="36" />
-      <File FileName="Assets/Scripts/PinSetter.cs" Line="15" Column="3" />
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="26" Column="2" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="18" Column="22" />
+      <File FileName="Assets/Scripts/DragLaunch.cs" Line="9" Column="23" />
+      <File FileName="Assets/Scripts/Pin.cs" Line="7" Column="42" />
+      <File FileName="Assets/Scripts/PinSetter.cs" Line="65" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
